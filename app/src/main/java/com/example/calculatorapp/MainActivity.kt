@@ -1,5 +1,6 @@
 package com.example.calculatorapp
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -8,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.setPadding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var resultTextView: TextView
@@ -123,7 +125,16 @@ class MainActivity : AppCompatActivity() {
         if(resultTextView.text.isNotEmpty() && resultTextView.text != "0.0" && resultTextView.text != "ERROR"){
             resultTextView.text = resultTextView.text.dropLast(1)
         } else{
-            Toast.makeText(this, "Invalid Operation", Toast.LENGTH_SHORT).show()
+            val toast = Toast(this)
+            val view:TextView = TextView(this).apply{
+                text = "No more numbers to delete"
+                setTextColor(Color.CYAN)
+                setBackgroundColor(Color.BLACK)
+                setPadding(32, 16, 32, 16)
+            }
+            toast.view = view
+            toast.duration = Toast.LENGTH_SHORT
+            toast.show()
         }
     }
 }
