@@ -12,8 +12,8 @@ A modern and intuitive calculator application for Android, built with Kotlin.
 
 ## Screenshots
 
-![Screenshot 1](https://drive.google.com/file/d/1JifFgsdc6fSjhAMLbAVsYXZDXHajeyRm/view?usp=sharing)
-![Screenshot 2](https://drive.google.com/file/d/1D80mHoIzP5JYsELRyhPUNA0D4CRjSd6/view?usp=sharing)
+[Screenshot 1](https://drive.google.com/file/d/1JifFgsdc6fSjhAMLbAVsYXZDXHajeyRm/view?usp=sharing)
+[Screenshot 2](https://drive.google.com/file/d/1D80mHoIzP5JYsELRyhPUNA0D4CRjSd6/view?usp=sharing)
 
 ## Getting Started
 
