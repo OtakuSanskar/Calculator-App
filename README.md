@@ -12,8 +12,8 @@ A modern and intuitive calculator application for Android, built with Kotlin.
 
 ## Screenshots
 
-![Screenshot 1](<link to screenshot 1>)
-![Screenshot 2](<link to screenshot 2>)
+![Screenshot 1](<https://drive.google.com/file/d/1JifFgsdc6fSjhAMLbAVsYXZDXHajeyRm/view?usp=sharing>)
+![Screenshot 2](https://drive.google.com/file/d/1D80mHoIzP5JYsELRyhPUNA0D4C_RjSd6/view?usp=sharing)
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/your_username_/CalculatorApp.git
+    git clone https://github.com/OtakuSanskar/Calculator-App.git
     ```
 2.  Open the project in Android Studio.
 3.  Build and run the app.
